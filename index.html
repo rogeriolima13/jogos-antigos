@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jogos</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Oswald&display=swap"
+        rel="stylesheet">
+
+</head>
+
+
+<body>
+    <div>
+        <img src="./geme.jpg" alt="foto game">
+        <h1>Sua Lembránça vc só encotra Aqui</h1>
+        <p> Venha recorda com Os Melhore Jogos </p>
+
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eligendi maiores officia, nam omnis odio harum ab
+            vitae
+            obcaecati laboriosam consequatur perspiciatis autem. Ullam facere dignissimos saepe consequatur repellendus
+            molestias fugiat.</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur maxime quidem ipsa dolorum iusto, ullam
+            aspernatur error expedita, cumque, sit obcaecati tenetur reprehenderit incidunt enim vel recusandae eaque
+            eius
+            numquam?</p>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatum ullam excepturi, amet doloremque id
+            reprehenderit sit consectetur? Esse, adipisci nostrum! Nihil ut molestiae ea accusantium, sapiente veniam
+            corrupti ex saepe?</p>
+        <button onclick="abrir()" class="venha">Entra em Contato</button>
+
+    </div>
+
+
+    <form> de ação="https://formsubmit.co/rogeriolima2182@gmail.com" method="POST">
+        <input type="text" name="name" required placeholder="nome">
+        <input type="email" name="email" required placeholder="Email">
+        <textarea placeholder="Sua duvida Aqui"></textarea>
+        <button type="submit">Enviar</button>/ formulário>
+        <button onclick="fechar()" type="button" class="volta">Volta</button>
+    </form>
+</body>
+
+<script>
+    function abrir() {
+        document.querySelector("form").style.opacity = 1
+        document.querySelector("div").style.opacity = 0.2
+
+    }
+    function fechar() {
+        document.querySelector("form").style.opacity = 0
+        document.querySelector("div").style.opacity = 1
+
+
+    }
+
+</script>
+
+
+
+
+
+
+
+
+</html>
